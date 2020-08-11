@@ -1,5 +1,4 @@
 function Cat(){
     this.name = "Mun"
 };  
-
-module.export = Cat;
+module.exports = Cat;
