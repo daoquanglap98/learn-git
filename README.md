@@ -8,3 +8,7 @@ git show id
 git reset
 git restore
 git diff
+git checkout -b <branch>
+git checkout <branch>
+git merge <branch>
+git branch -D <branch>
