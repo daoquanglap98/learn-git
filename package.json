@@ -1,0 +1,14 @@
+{
+  "name": "1-commit",
+  "version": "1.0.0",
+  "description": "This project is just a demo\r git init\r git add namefile\r git status\r git commit -m \"message\"\r git log\r git show id\r git reset\r git restore\r git diff\r git checkout -b <branch>\r git checkout <branch>\r git merge <branch>\r git branch -D <branch>\r git reset --soft <id> <!-- Đưa về staging area -->\r git reset --mixed <id> <!-- Đưa về working directory --> \r git reset --hard <id> <!-- Xóa commit và đưa về commit có id truyền vào --> \r git revert <id> <!-- Đảo ngược những thay đổi của commit trong quá khứ -->",
+  "main": "cat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
