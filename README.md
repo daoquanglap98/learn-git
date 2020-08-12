@@ -15,3 +15,4 @@ git branch -D <branch>
 git reset --soft <id> <!-- Đưa về staging area -->
 git reset --mixed <id> <!-- Đưa về working directory --> 
 git reset --hard <id> <!-- Xóa commit và đưa về commit có id truyền vào --> 
+git revert <id> <!-- Đảo ngược những thay đổi của commit trong quá khứ -->
