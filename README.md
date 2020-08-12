@@ -12,3 +12,6 @@ git checkout -b <branch>
 git checkout <branch>
 git merge <branch>
 git branch -D <branch>
+git reset --soft <id> <!-- Đưa về staging area -->
+git reset --mixed <id> <!-- Đưa về working directory --> 
+git reset --hard <id> <!-- Xóa commit và đưa về commit có id truyền vào --> 
