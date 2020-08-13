@@ -18,3 +18,4 @@ git reset --hard <id> <!-- Xóa commit và đưa về commit có id truyền và
 git revert <id> <!-- Đảo ngược những thay đổi của commit -->
 git remote add origin <link>
 git push -u origin master <!-- Lần đầu push -->
+git config --global credential.helper "cache --timeout=18000" <!-- Save password github -->
