@@ -11,6 +11,8 @@ git diff
 git checkout -b <branch>
 git checkout <branch>
 git merge <branch>
+git branch -d <branch> <!-- Xóa Branch local >
+git push origin --delete <branch> <!-- Xóa branch remote -->
 git branch -D <branch>
 git reset --soft <id> <!-- Đưa về staging area -->
 git reset --mixed <id> <!-- Đưa về working directory --> 
@@ -21,3 +23,6 @@ git push -u origin master <!-- Lần đầu push -->
 git config --global credential.helper "cache --timeout=18000" <!-- Save password github -->
 git clone <link>
 git pull <!-- Kéo code về -->
+git push origin <branch> <!-- Push với 1 branch mới lên github -->
+git fetch origin <branch>
+npm install <!-- Install all package in package.json -->
